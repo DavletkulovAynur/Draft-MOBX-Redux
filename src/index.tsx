@@ -6,6 +6,7 @@ import createAppRouter from "./router";
 const router = createAppRouter()
 router.start()
 
+//TODO: как получить store
 
 const rootElement = document.getElementById("root");
 render(
