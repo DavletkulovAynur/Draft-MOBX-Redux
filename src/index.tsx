@@ -7,6 +7,7 @@ const router = createAppRouter()
 router.start()
 
 //TODO: как получить store
+// Store мы получаем в зависсимости от роутинга 
 
 const rootElement = document.getElementById("root");
 render(

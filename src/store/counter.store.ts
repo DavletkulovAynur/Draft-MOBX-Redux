@@ -1,20 +1,7 @@
-import {
-  action,
-  autorun,
-  computed,
-  makeAutoObservable,
-  makeObservable,
-  observable,
-} from "mobx";
+import { makeAutoObservable } from "mobx";
 
 class Store {
   constructor() {
-    // makeObservable(this, {
-    //   count: observable,
-    //   inc: action,
-    //   dec: action,
-    //   double: computed,
-    // })
     makeAutoObservable(this);
   }
 
