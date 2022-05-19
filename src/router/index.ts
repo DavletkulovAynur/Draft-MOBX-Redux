@@ -6,6 +6,7 @@ import routes from './routes'
 const createAppRouter = () => {
   const router = createRouter(routes);
   //TODO: browserPlugin???
+  //TEST
   router.usePlugin(browserPlugin());
   return router
 };
