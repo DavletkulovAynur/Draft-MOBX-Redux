@@ -1,21 +1,24 @@
+// import tsbaseTypes from "../../../../assets/images/typeScript/ts-base-types";
 
 const TS = () => {
   //TODO: Basic Types
-  const numb: number = 1000
-  const str: string = 'hello'
-  const bool: boolean = false
-  const arr: Array<number> = [1, 2]
-  const nullTest: null = null
+  const a: number = 1;
+  const b: string = "TypeScript";
+  const c: boolean = false;
+  const d: Array<number> = [1, 2];
+  const e: null = null;
+  const f: undefined = undefined;
+  const g: string[] = ["JS", "TS"];
   // Тип объединения (Union)
-  const varUnion: string | boolean = false
+  const varUnion: string | boolean = false;
   // Tuple
-  let x: [number, string] = [1, 'qwerty']
+  let x: [number, string] = [1, "qwerty"];
   //ENUMS
-  enum ResourseType  {
+  enum ResourseType {
     FILM = 1,
     BOOK = 2,
   }
-  console.log(ResourseType.BOOK)
+  console.log(ResourseType.BOOK);
 
   //TODO: объекты
 
@@ -24,7 +27,7 @@ const TS = () => {
     <div>
       <h1>TS</h1>
     </div>
-  )
-}
+  );
+};
 
-export default TS
+export default TS;
